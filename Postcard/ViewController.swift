@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         
+        // Change the button text
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
         
     }
